@@ -26,7 +26,7 @@ This project is a Python-based email spam detection system using NLTK (Natural L
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/email-spam-detection.git
+git clone https://github.com/vaibhav096/email-spam-detection.git
 ```
    
 2. Install the required dependencies:

@@ -6,6 +6,13 @@ __pycache__/
 # C extensions
 *.so
 
+# databases
+Movie_Genre_Prediction/*.txt
+Credit_Card_Fraud_Detection/*.csv
+*.csv
+*.txt
+!nltk.txt
+
 # Distribution / packaging
 .Python
 build/

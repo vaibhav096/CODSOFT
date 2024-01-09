@@ -12,6 +12,7 @@ Credit_Card_Fraud_Detection/*.csv
 *.csv
 *.txt
 !nltk.txt
+!requirements.txt
 
 # Distribution / packaging
 .Python

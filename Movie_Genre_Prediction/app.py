@@ -8,7 +8,18 @@ from sklearn.preprocessing import LabelEncoder
 # encoder = LabelEncoder()
 
 # Load your TF-IDF vectorizer
-tfidf = pickle.load(open('vectorizer.pkl', 'rb'))
+# tfidf = pickle.load(open('vectorizer.pkl', 'rb'))
+import os
+import pickle
+
+# Get the absolute path of the directory containing the script
+script_dir = os.path.dirname(os.path.abspath(__file__))
+
+# Construct the absolute path to the pickle file
+pickle_path = os.path.join(script_dir, 'vectorizer.pkl')
+
+# Load the pickled object
+tfidf = pickle.load(open(pickle_path, 'rb'))
 encoder = pickle.load(open('label_encoder.pkl', 'rb'))
 # Load your model
 model = pickle.load(open('model.pkl', 'rb'))

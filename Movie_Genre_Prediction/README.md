@@ -30,7 +30,7 @@ Welcome to the Movie Genre Prediction Model project! This machine learning proje
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/vaibhav096/CODSOFT/new/main/Movie_Genre_Prediction
+git clone https://github.com/vaibhav096/CODSOFT.git
 cd Movie_Genre_Prediction
 ```
 

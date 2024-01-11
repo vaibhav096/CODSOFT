@@ -46,6 +46,13 @@ pip install -r requirements.txt
 ```
 
 Run the project notebooks:
+
+
+
 ```bash
 jupyter notebook
 ```
+---
+## Demo of the project:
+
+https://github.com/vaibhav096/CODSOFT/assets/126165359/23cf5e3c-ca20-4172-b1a2-5dbf98acdc71
